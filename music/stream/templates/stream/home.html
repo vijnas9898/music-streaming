@@ -1,0 +1,5 @@
+<ul>
+{% for s in song_list %}
+    <li><a href="/stream/{{ s.id }}/">{{ s.tittle }}</a></li>
+{% endfor %}
+</ul>
